@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "employmentexchange"
+version = "0.1.0"
+description = ""
+authors = ["Pelykh-Ilya <pelykh.ilya@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.88.0"
+uvicorn = "^0.20.0"
+sqlalchemy = "^1.4.45"
+passlib = "^1.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
